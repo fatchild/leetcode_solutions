@@ -25,7 +25,7 @@
 
 
 let nums = [2,7,11,15]
-let target = 9
+let target = 13
 
 // const hashmap = new Map();
 
@@ -45,6 +45,8 @@ let target = 9
 let seenHash = {}
 
 for (let i = 0; i < nums.length; i++){
-    if ( ( target - nums[i] ) in seenHash ){ console.log([ seenHash[target - nums[i]], i]) }
+    if ( ( target - nums[i] ) in seenHash ){ 
+        console.log([ seenHash[target - nums[i]], i]) 
+    }
     seenHash[nums[i]] = i
 }
