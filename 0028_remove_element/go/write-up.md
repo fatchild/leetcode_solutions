@@ -20,3 +20,4 @@ This program reads the array. If the element read is equal to the remove value t
 
 - Runtime `0ms` beats 100%
 - Memory `4.09MB` beats 69.08%
+- Time `~2h`
