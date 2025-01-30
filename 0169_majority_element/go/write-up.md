@@ -23,7 +23,7 @@ Using a hashmap we can attribute the number of occurrences as the value to the e
 
 The problems description asks if the problem can be solved in linear time and O(1) space complexity.
 
-We can get it down to O(n) by storing the highest occurrences value as we go
+We can get it down to O(n) by storing the highest occurrences value as we go.
 
 ### Complexity
 
@@ -43,6 +43,8 @@ We can get it down to O(n) by storing the highest occurrences value as we go
 Thanks to [lacfo](https://leetcode.com/u/lacfo/) for the best answer and providing the O(1) space complexity.
 
 There is always a majority element. Because of this, we can observe that an array must have adjacent values which are the majority. It may have adjacent values which are not majority, but the will be less than the overall number of occurrences of the majority value.
+
+This is known as the [Boyer Moore voting algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm).
 
 ## Outcome
 
