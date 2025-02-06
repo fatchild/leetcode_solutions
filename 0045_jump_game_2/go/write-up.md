@@ -21,12 +21,14 @@ This initial approach is another greedy algorithm. It makes the best decision ba
 
 > solution_2
 
-I saw that people were submitting DP answers. Dynamic programming answers.
+I saw that people were submitting DP answers. Dynamic programming answers. Dynamic Programming is an approach were you break down problems into sub problems in order to be more efficient than a normal recursive brute force approach.
+
+This approach will use the memoization method. By doing so you optimize the time complexity from $O(n^2)$ to $O(n)$.
 
 ### Complexity
 
-> Time: O(n) 
-> Space: O(1) 
+> Time: O() 
+> Space: O() 
 
 ## Outcome
 
@@ -38,12 +40,12 @@ I saw that people were submitting DP answers. Dynamic programming answers.
 
 > solution_3
 
-There is a more elegant way to express what I was trying to do above. In both approaches we are checking if a path can be made back to front. But in this implementation you just track the jumps needed, rather than the value of the index.
+
 
 ### Complexity
 
-> Time: O(n) 
-> Space: O(1) Constant but a smaller constant.
+> Time: O( ) 
+> Space: O( ) 
 
 ## Outcome
 
